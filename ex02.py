@@ -11,7 +11,6 @@ from random import randint
 
 print(bed := [randint(0,30) for i in range(20)])
 maxbush=0
-bush=[]
 for i in range(len(bed)):
     print(a:=bed[i]+bed[i-1]+bed[i-2], end=' ')
     if a>maxbush:
